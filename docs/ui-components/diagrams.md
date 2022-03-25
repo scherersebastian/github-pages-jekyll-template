@@ -31,6 +31,14 @@ It is a Javascript based diagramming and charting tool that renders Markdown-ins
 
 ## How to
 
+{% mermaid %}
+graph TD;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
+{% endmermaid %}
+
 <div class="mermaid">
 graph LR;
   A-->B;
