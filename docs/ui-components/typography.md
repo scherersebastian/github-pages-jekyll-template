@@ -5,14 +5,21 @@ parent: UI Components
 nav_order: 1
 ---
 
+<!-- prettier-ignore-start -->
 # Typography
 {: .no_toc }
+<!-- prettier-ignore-end -->
 
+<!-- prettier-ignore-start -->
 ## Table of contents
 {: .no_toc .text-delta }
+<!-- prettier-ignore-end -->
+
+<!-- prettier-ignore-start -->
 
 1. TOC
 {:toc}
+<!-- prettier-ignore-end -->
 
 ---
 
