@@ -5,16 +5,18 @@ nav_order: 2
 ---
 
 # Configuration
+
 {: .no_toc }
 
 Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
 
@@ -134,8 +136,6 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
   }
 });
 </script>
-
-See [Customization]({{ site.baseurl }}{% link docs/customization.md %}) for more information.
 
 ## Google Analytics
 
