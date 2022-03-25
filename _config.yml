@@ -1,7 +1,7 @@
 remote_theme: just-the-docs/just-the-docs
 
-title: Lorem
-description: A Jekyll theme for documentation test
+title: Template
+description: Documentation template
 # Set a path/url to a logo that will be displayed instead of the title
 # logo: "/assets/logo.png"
 
@@ -23,7 +23,7 @@ aux_links_new_tab: true
 # Footer content
 # appears at the bottom of every page's main content
 # Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust markup / liquid-based content.
-footer_content: 'Copyright &copy; 2017-2022 Sebastian Scherer. Distributed by an <a href="https://github.com/the-tatanka/github-pages-jekyll-template/blob/master/LICENSE">MIT license.</a>'
+footer_content: 'Copyright &copy; 2017-2022 the-tatanka. Distributed by an <a href="https://github.com/the-tatanka/github-pages-jekyll-template/blob/master/LICENSE">MIT license.</a>'
 
 # Back to top link
 back_to_top: true
