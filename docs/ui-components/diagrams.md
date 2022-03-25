@@ -69,6 +69,9 @@ graph TD;
     C -->|Three| F[fa:fa-car Car];
 </div>
 
+<!-- Import mermaid js package to create mermaid diagrams -->
+<script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
+
 ## Color scheme
 
 ```yaml
