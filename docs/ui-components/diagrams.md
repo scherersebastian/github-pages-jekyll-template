@@ -113,10 +113,10 @@ pie title Pets adopted by volunteers;
 ```
 
 <div class="mermaid">
-pie title Pets adopted by volunteers;
-    "Dogs" : 386;
-    "Cats" : 85;
-    "Rats" : 15;
+pie title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
 </div>
 
 <!-- Import mermaid js package to create mermaid diagrams -->
