@@ -5,32 +5,25 @@ parent: UI Components
 nav_order: 2
 ---
 
+<!-- prettier-ignore-start -->
 # Buttons
-
 {: .no_toc }
+<!-- prettier-ignore-end -->
 
+<!-- prettier-ignore-start -->
 ## Table of contents
-
 {: .no_toc .text-delta }
+<!-- prettier-ignore-end -->
+
+<!-- prettier-ignore-start -->
 
 1. TOC
-   {:toc}
+{:toc}
+<!-- prettier-ignore-end -->
 
 ---
 
-<script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
-
 ## Basic button styles
-
-<div class="mermaid">
-graph LR;
-  A-->B;
-</div>
-
-<div class="mermaid">
-graph LR;
-  A-->B;
-</div>
 
 ### Links that look like buttons
 

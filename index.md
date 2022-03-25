@@ -31,3 +31,5 @@ When contributing to this repository, please first discuss the change you wish t
   </li>
 {% endfor %}
 </ul>
+
+<script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
