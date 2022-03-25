@@ -124,3 +124,27 @@ pie title Pets adopted by volunteers;
 
 <!-- Import mermaid js package to create mermaid diagrams -->
 <script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
+
+```plantuml!
+Bob -> Alice : hello world
+```
+
+@startuml
+Bob -> Alice : hello
+@enduml
+
+```mermaid!
+pie title Pets adopted by volunteers
+  "Dogs" : 386
+  "Cats" : 85
+  "Rats" : 35
+```
+
+or
+
+@startmermaid
+pie title Pets adopted by volunteers
+"Dogs" : 386
+"Cats" : 85
+"Rats" : 35
+@endmermaid
