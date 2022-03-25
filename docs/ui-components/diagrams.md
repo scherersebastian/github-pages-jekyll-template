@@ -31,16 +31,6 @@ It is a Javascript based diagramming and charting tool that renders Markdown-ins
 
 ## How to
 
-<div class="mermaid">
-graph LR;
-  A-->B;
-</div>
-
-<div class="mermaid">
-graph LR;
-  A-->B;
-</div>
-
 Add the import of the mermaid script somewhere:
 
 ```
@@ -69,28 +59,65 @@ graph TD;
     C -->|Three| F[fa:fa-car Car];
 </div>
 
-<!-- Import mermaid js package to create mermaid diagrams -->
-<script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
-
-## Color scheme
-
-```yaml
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
+```
+<div class="mermaid">
+sequenceDiagram;
+    Alice->>+John: Hello John, how are you?;
+    Alice->>+John: John, can you hear me?;
+    John-->>-Alice: Hi Alice, I can hear you!;
+    John-->>-Alice: I feel great!;
+</div>
 ```
 
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+<div class="mermaid">
+sequenceDiagram;
+    Alice->>+John: Hello John, how are you?;
+    Alice->>+John: John, can you hear me?;
+    John-->>-Alice: Hi Alice, I can hear you!;
+    John-->>-Alice: I feel great!;
+</div>
 
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+```
+<div class="mermaid">
+gantt;
+    title A Gantt Diagram;
+    dateFormat  YYYY-MM-DD;
+    section Section;
+    A task           :a1, 2014-01-01, 30d;
+    Another task     :after a1  , 20d;
+    section Another;
+    Task in sec      :2014-01-12  , 12d;
+    another task      : 24d;
+</div>
+```
 
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
+<div class="mermaid">
+gantt;
+    title A Gantt Diagram;
+    dateFormat  YYYY-MM-DD;
+    section Section;
+    A task           :a1, 2014-01-01, 30d;
+    Another task     :after a1  , 20d;
+    section Another;
+    Task in sec      :2014-01-12  , 12d;
+    another task      : 24d;
+</div>
+
+```
+<div class="mermaid">
+pie title Pets adopted by volunteers;
+    "Dogs" : 386;
+    "Cats" : 85;
+    "Rats" : 15;
+</div>
+```
+
+<div class="mermaid">
+pie title Pets adopted by volunteers;
+    "Dogs" : 386;
+    "Cats" : 85;
+    "Rats" : 15;
+</div>
+
+<!-- Import mermaid js package to create mermaid diagrams -->
+<script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
