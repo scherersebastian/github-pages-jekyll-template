@@ -41,6 +41,34 @@ graph LR;
   A-->B;
 </div>
 
+Add the import of the mermaid script somewhere:
+
+```
+<script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
+```
+
+### Examples
+
+```
+<div class="mermaid">
+graph TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+</div>
+```
+
+<div class="mermaid">
+graph TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+</div>
+
 ## Color scheme
 
 ```yaml
