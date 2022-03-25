@@ -31,18 +31,16 @@ It is a Javascript based diagramming and charting tool that renders Markdown-ins
 
 ## How to
 
-{% mermaid %}
-graph TD;
-A-->B;
-A-->C;
-B-->D;
-C-->D;
-{% endmermaid %}
+<div class="mermaid">
+graph LR;
+  A-->B;
+</div>
 
 <div class="mermaid">
 graph LR;
   A-->B;
 </div>
+
 <script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
 
 ## Color scheme
