@@ -4,17 +4,24 @@ title: Configuration
 nav_order: 2
 ---
 
+<!-- prettier-ignore-start -->
 # Configuration
 {: .no_toc }
+<!-- prettier-ignore-end -->
 
 Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
 {: .fs-6 .fw-300 }
 
+<!-- prettier-ignore-start -->
 ## Table of contents
 {: .no_toc .text-delta }
+<!-- prettier-ignore-end -->
+
+<!-- prettier-ignore-start -->
 
 1. TOC
 {:toc}
+<!-- prettier-ignore-end -->
 
 ---
 

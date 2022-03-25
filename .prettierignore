@@ -1,2 +1,2 @@
 # Prettier puts new lines after header - breaks just-the-docs table of contents config
-*.md
+#*.md
