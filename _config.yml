@@ -2,6 +2,8 @@ remote_theme: just-the-docs/just-the-docs
 
 title: Lorem ipsum
 description: A Jekyll theme for documentation test
+# Set a path/url to a logo that will be displayed instead of the title
+# logo: "/assets/logo.png"
 
 color_scheme: custom
 
@@ -12,9 +14,6 @@ aux_links:
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
-
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/logo.png"
 
 # Footer content
 # appears at the bottom of every page's main content
