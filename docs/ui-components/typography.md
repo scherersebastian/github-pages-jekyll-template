@@ -6,13 +6,15 @@ nav_order: 1
 ---
 
 # Typography
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
 
@@ -44,15 +46,15 @@ abcdefghijklmnopqrstuvwxyz
 
 Just the Docs uses a responsive type scale that shifts depending on the viewport size.
 
-| Selector              | Small screen size `font-size`    | Large screen size `font-size` |
-|:----------------------|:---------------------------------|:------------------------------|
-| `h1`, `.text-alpha`   | 32px                             | 36px                          |
-| `h2`, `.text-beta`    | 18px                             | 24px                          |
-| `h3`, `.text-gamma`   | 16px                             | 18px                          |
-| `h4`, `.text-delta`   | 14px                             | 16px                          |
-| `h5`, `.text-epsilon` | 16px                             | 18px                          |
-| `h6`, `.text-zeta`    | 18px                             | 24px                          |
-| `body`                | 14px                             | 16px                          |
+| Selector              | Small screen size `font-size` | Large screen size `font-size` |
+| :-------------------- | :---------------------------- | :---------------------------- |
+| `h1`, `.text-alpha`   | 32px                          | 36px                          |
+| `h2`, `.text-beta`    | 18px                          | 24px                          |
+| `h3`, `.text-gamma`   | 16px                          | 18px                          |
+| `h4`, `.text-delta`   | 14px                          | 16px                          |
+| `h5`, `.text-epsilon` | 16px                          | 18px                          |
+| `h6`, `.text-zeta`    | 18px                          | 24px                          |
+| `body`                | 14px                          | 16px                          |
 
 ---
 
@@ -98,11 +100,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
+
 </div>
 ```markdown
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
+
 ```
 
 ---
+```
