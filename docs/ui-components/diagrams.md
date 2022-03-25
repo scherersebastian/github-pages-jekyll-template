@@ -51,22 +51,22 @@ Add the import of the mermaid script somewhere:
 
 ```
 <div class="mermaid">
-graph TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
+graph TD;
+    A[Christmas] -->|Get money| B(Go shopping);
+    B --> C{Let me think};
+    C -->|One| D[Laptop];
+    C -->|Two| E[iPhone];
+    C -->|Three| F[fa:fa-car Car];
 </div>
 ```
 
 <div class="mermaid">
-graph TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
+graph TD;
+    A[Christmas] -->|Get money| B(Go shopping);
+    B --> C{Let me think};
+    C -->|One| D[Laptop];
+    C -->|Two| E[iPhone];
+    C -->|Three| F[fa:fa-car Car];
 </div>
 
 ## Color scheme
