@@ -1,2 +1,3 @@
 # Prettier puts new lines after header - breaks just-the-docs table of contents config
+# Put <!-- prettier-ignore-start --> and <!-- prettier-ignore-end --> around table of contents
 #*.md
