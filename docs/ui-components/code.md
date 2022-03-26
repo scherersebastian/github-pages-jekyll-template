@@ -31,7 +31,7 @@ Code can be rendered inline by wrapping it in single back ticks.
 
 ![~mermaid diagram 2~](/assets/docs_ui-components_code-md-1.png)
 
-![~mermaid diagram 3~](./assets/docs_ui-components_code-md-1.png)
+![~mermaid diagram 3~](../../assets/docs_ui-components_code-md-1.png)
 
 <div class="code-example" markdown="1">
 Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
