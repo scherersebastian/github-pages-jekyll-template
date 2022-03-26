@@ -10,7 +10,7 @@ permalink: /
 
 \<REPLACE primary business case + main features & benefits\>
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/the-tatanka/github-pages-jekyll-template){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get started now](#getting-started){: .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/the-tatanka/github-pages-jekyll-template){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 \<REPLACE project name\> is &copy; 2017-{{ "now" | date: "%Y" }} by [the-tatanka](https://github.com/the-tatanka/github-pages-jekyll-template).
 
