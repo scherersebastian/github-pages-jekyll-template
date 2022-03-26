@@ -96,3 +96,22 @@ To demonstrate front end code, sometimes it's useful to show a rendered example 
 [Link button](http://example.com/){: .btn }
 ```
 {% endhighlight %}
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mermaid/6.0.0/mermaid.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/6.0.0/mermaid.js"></script>
+
+
+<div class="mermaid" style="margin:auto;">
+            graph TD 
+              st{HI!}
+              eco{D$$}
+              good((Great))
+              bad((Mizzz))
+              en>Goodbye!]
+                en>Goodbye!]
+              A((HI))
+              style st fill:blue,fill-opacity:0.35,color:#FFFFFF,stroke-opacity:0.2
+              style en fill:red,fill-opacity:0.35,color:#FFFFFF,stroke-opacity:0.2
+              classDef eco fill:green;
+              class A eco
+</div>
