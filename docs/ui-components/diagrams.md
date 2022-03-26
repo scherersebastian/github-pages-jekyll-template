@@ -29,12 +29,10 @@ nav_order: 6
 
 It is a Javascript based diagramming and charting tool that renders Markdown-inspired text definitions to create and modify diagrams dynamically.
 
-## How to
-
 ```mermaid
-flowchart LR
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
+graph LR
+    A[SystemA] -->|Raw transaction| B(SystemB)
+    C[SystemC] -->|Relations| B
+    B -->|Transaction| D(SystemD)
+    D -->|Status change| B
 ```
