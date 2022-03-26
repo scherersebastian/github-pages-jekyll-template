@@ -125,6 +125,7 @@ graph LR
     D -->|Status change| B
 '''
 
+
 ```mermaid
 graph LR
     A[SystemA] -->|Raw transaction| B(SystemB)
