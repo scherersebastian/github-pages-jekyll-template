@@ -24,3 +24,4 @@ jobs:
         with:
           provider: "github"
           token: ${{ secrets.PAT_TOKEN }} # It's your Personal Access Token(PAT)
+          branch: "master" # Default is gh-pages for github provider
