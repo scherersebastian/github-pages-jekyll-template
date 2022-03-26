@@ -25,7 +25,6 @@ nav_order: 6
 
 ## Inline code
 
-
 Code can be rendered inline by wrapping it in single back ticks.
 
 <div class="code-example" markdown="1">
