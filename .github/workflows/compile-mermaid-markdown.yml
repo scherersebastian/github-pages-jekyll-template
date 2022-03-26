@@ -1,9 +1,9 @@
-name: 'Compile Mermaid in Markdown'
+name: "compile mermaid in markdown"
 
 on:
   push:
     paths:
-      - '**/*.md'
+      - "**/*.md"
 
 jobs:
   build:
@@ -27,10 +27,11 @@ jobs:
         uses: neenjaw/compile-mermaid-markdown-action@0.3.1
         with:
           files: ${{ steps.getfile.outputs.files }}
-          output: 'assets'
+          output: "assets"
         env:
           HIDE_CODEBLOCKS: 1
-          ABSOLUTE_IMAGE_LINKS: 
+          # Jekyll needs the absolute path!
+          ABSOLUTE_IMAGE_LINKS:
           OUTPUT_FILE_TYPE: "png"
 
       - name: show changes
