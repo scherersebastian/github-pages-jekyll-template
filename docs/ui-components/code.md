@@ -115,3 +115,20 @@ To demonstrate front end code, sometimes it's useful to show a rendered example 
               classDef eco fill:green;
               class A eco
 </div>
+
+
+'''mermaid
+graph LR
+    A[SystemA] -->|Raw transaction| B(SystemB)
+    C[SystemC] -->|Relations| B
+    B -->|Transaction| D(SystemD)
+    D -->|Status change| B
+'''
+
+```mermaid
+graph LR
+    A[SystemA] -->|Raw transaction| B(SystemB)
+    C[SystemC] -->|Relations| B
+    B -->|Transaction| D(SystemD)
+    D -->|Status change| B
+```
