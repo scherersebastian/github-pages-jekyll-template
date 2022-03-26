@@ -25,6 +25,7 @@ nav_order: 6
 
 ## Inline code
 
+
 Code can be rendered inline by wrapping it in single back ticks.
 
 ![~mermaid diagram 1~](/assets/docs_ui-components_code-md-1.svg)
